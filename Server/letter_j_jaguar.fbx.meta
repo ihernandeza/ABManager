@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 3eb2dd1e078e6614baa99d1520262f09
+timeCreated: 1448031638
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: jaguar_body
+    100002: jaguar_eye_left
+    100004: jaguar_eye_right
+    100006: jaguar_joints
+    100008: jaguar_mesh
+    100010: jaguar_RIG_100_CHEST_COUNTER
+    100012: jaguar_RIG_100_Chest_Counter_02
+    100014: jaguar_RIG_100_COG
+    100016: jaguar_RIG_100_FACE_JOINT
+    100018: jaguar_RIG_100_HEAD_END
+    100020: jaguar_RIG_100_HEAD_END_2
+    100022: jaguar_RIG_100_HEAD_joint
+    100024: jaguar_RIG_100_JAW_joint1
+    100026: jaguar_RIG_100_JAW_joint2
+    100028: jaguar_RIG_100_JAW_jointEND
+    100030: jaguar_RIG_100_joint2
+    100032: jaguar_RIG_100_joint4
+    100034: jaguar_RIG_100_LEFT__BACK_PAW
+    100036: jaguar_RIG_100_LEFT__BACK_PAW_END
+    100038: jaguar_RIG_100_LEFT__BACK_PAW_joint10
+    100040: jaguar_RIG_100_LEFT__BACK_PAW_joint7
+    100042: jaguar_RIG_100_LEFT__BACK_PAW_joint8
+    100044: jaguar_RIG_100_LEFT__BACK_PAW_joint9
+    100046: jaguar_RIG_100_LEFT__FRONT_PAW
+    100048: jaguar_RIG_100_LEFT__FRONT_PAW_END
+    100050: jaguar_RIG_100_LEFT__FRONT_PAWjoint2
+    100052: jaguar_RIG_100_LEFT__FRONT_PAWjoint3
+    100054: jaguar_RIG_100_LEFT__FRONT_PAWjoint4
+    100056: jaguar_RIG_100_LEFT_BOTTOM_LIP
+    100058: jaguar_RIG_100_LEFT_BOTTOM_SHECK
+    100060: jaguar_RIG_100_LEFT_EAR
+    100062: jaguar_RIG_100_LEFT_EAREND
+    100064: jaguar_RIG_100_LEFT_EYE
+    100066: jaguar_RIG_100_LEFT_RIBCAGE
+    100068: jaguar_RIG_100_LEFT_RIBCAGE02
+    100070: jaguar_RIG_100_LEFT_RIBCAGE_END
+    100072: jaguar_RIG_100_LEFT_TOP_LIP
+    100074: jaguar_RIG_100_LEFT_TOP_SHECK
+    100076: jaguar_RIG_100_NECK_COUNTER_01
+    100078: jaguar_RIG_100_NECK_COUNTER_02
+    100080: jaguar_RIG_100_NECK_JOINT_joint4
+    100082: jaguar_RIG_100_NOSE
+    100084: jaguar_RIG_100_RIGTH__BACK_PAW
+    100086: jaguar_RIG_100_RIGTH__BACK_PAW_END
+    100088: jaguar_RIG_100_RIGTH__BACK_PAW_joint10
+    100090: jaguar_RIG_100_RIGTH__BACK_PAW_joint7
+    100092: jaguar_RIG_100_RIGTH__BACK_PAW_joint8
+    100094: jaguar_RIG_100_RIGTH__BACK_PAW_joint9
+    100096: jaguar_RIG_100_RIGTH__FRONT_PAW
+    100098: jaguar_RIG_100_RIGTH__FRONT_PAW_END
+    100100: jaguar_RIG_100_RIGTH__FRONT_PAWjoint2
+    100102: jaguar_RIG_100_RIGTH__FRONT_PAWjoint3
+    100104: jaguar_RIG_100_RIGTH__FRONT_PAWjoint4
+    100106: jaguar_RIG_100_RIGTH_BOTTOM_LIP
+    100108: jaguar_RIG_100_RIGTH_BOTTOM_SHECK
+    100110: jaguar_RIG_100_RIGTH_EAR
+    100112: jaguar_RIG_100_RIGTH_EAREND
+    100114: jaguar_RIG_100_RIGTH_EYE
+    100116: jaguar_RIG_100_RIGTH_RIBCAGE
+    100118: jaguar_RIG_100_RIGTH_RIBCAGE02
+    100120: jaguar_RIG_100_RIGTH_RIBCAGE_END
+    100122: jaguar_RIG_100_RIGTH_TOP_LIP
+    100124: jaguar_RIG_100_RIGTH_TOP_SHECK
+    100126: jaguar_RIG_100_SPINE_JOINT01
+    100128: jaguar_RIG_100_SPINE_joint1
+    100130: jaguar_RIG_100_SPINE_joint2
+    100132: jaguar_RIG_100_SPINE_joint3
+    100134: jaguar_RIG_100_TAIL_Joint_1
+    100136: jaguar_RIG_100_TAIL_Joint_2
+    100138: jaguar_RIG_100_TAIL_Joint_3
+    100140: jaguar_RIG_100_TAIL_Joint_4
+    100142: jaguar_RIG_100_TAIL_Joint_5
+    100144: jaguar_RIG_100_TAIL_Joint_6
+    100146: jaguar_RIG_100_TAIL_Joint_7
+    100148: jaguar_RIG_100_TAIL_Joint_END
+    100150: //RootNode
+    400000: jaguar_body
+    400002: jaguar_eye_left
+    400004: jaguar_eye_right
+    400006: jaguar_joints
+    400008: jaguar_mesh
+    400010: jaguar_RIG_100_CHEST_COUNTER
+    400012: jaguar_RIG_100_Chest_Counter_02
+    400014: jaguar_RIG_100_COG
+    400016: jaguar_RIG_100_FACE_JOINT
+    400018: jaguar_RIG_100_HEAD_END
+    400020: jaguar_RIG_100_HEAD_END_2
+    400022: jaguar_RIG_100_HEAD_joint
+    400024: jaguar_RIG_100_JAW_joint1
+    400026: jaguar_RIG_100_JAW_joint2
+    400028: jaguar_RIG_100_JAW_jointEND
+    400030: jaguar_RIG_100_joint2
+    400032: jaguar_RIG_100_joint4
+    400034: jaguar_RIG_100_LEFT__BACK_PAW
+    400036: jaguar_RIG_100_LEFT__BACK_PAW_END
+    400038: jaguar_RIG_100_LEFT__BACK_PAW_joint10
+    400040: jaguar_RIG_100_LEFT__BACK_PAW_joint7
+    400042: jaguar_RIG_100_LEFT__BACK_PAW_joint8
+    400044: jaguar_RIG_100_LEFT__BACK_PAW_joint9
+    400046: jaguar_RIG_100_LEFT__FRONT_PAW
+    400048: jaguar_RIG_100_LEFT__FRONT_PAW_END
+    400050: jaguar_RIG_100_LEFT__FRONT_PAWjoint2
+    400052: jaguar_RIG_100_LEFT__FRONT_PAWjoint3
+    400054: jaguar_RIG_100_LEFT__FRONT_PAWjoint4
+    400056: jaguar_RIG_100_LEFT_BOTTOM_LIP
+    400058: jaguar_RIG_100_LEFT_BOTTOM_SHECK
+    400060: jaguar_RIG_100_LEFT_EAR
+    400062: jaguar_RIG_100_LEFT_EAREND
+    400064: jaguar_RIG_100_LEFT_EYE
+    400066: jaguar_RIG_100_LEFT_RIBCAGE
+    400068: jaguar_RIG_100_LEFT_RIBCAGE02
+    400070: jaguar_RIG_100_LEFT_RIBCAGE_END
+    400072: jaguar_RIG_100_LEFT_TOP_LIP
+    400074: jaguar_RIG_100_LEFT_TOP_SHECK
+    400076: jaguar_RIG_100_NECK_COUNTER_01
+    400078: jaguar_RIG_100_NECK_COUNTER_02
+    400080: jaguar_RIG_100_NECK_JOINT_joint4
+    400082: jaguar_RIG_100_NOSE
+    400084: jaguar_RIG_100_RIGTH__BACK_PAW
+    400086: jaguar_RIG_100_RIGTH__BACK_PAW_END
+    400088: jaguar_RIG_100_RIGTH__BACK_PAW_joint10
+    400090: jaguar_RIG_100_RIGTH__BACK_PAW_joint7
+    400092: jaguar_RIG_100_RIGTH__BACK_PAW_joint8
+    400094: jaguar_RIG_100_RIGTH__BACK_PAW_joint9
+    400096: jaguar_RIG_100_RIGTH__FRONT_PAW
+    400098: jaguar_RIG_100_RIGTH__FRONT_PAW_END
+    400100: jaguar_RIG_100_RIGTH__FRONT_PAWjoint2
+    400102: jaguar_RIG_100_RIGTH__FRONT_PAWjoint3
+    400104: jaguar_RIG_100_RIGTH__FRONT_PAWjoint4
+    400106: jaguar_RIG_100_RIGTH_BOTTOM_LIP
+    400108: jaguar_RIG_100_RIGTH_BOTTOM_SHECK
+    400110: jaguar_RIG_100_RIGTH_EAR
+    400112: jaguar_RIG_100_RIGTH_EAREND
+    400114: jaguar_RIG_100_RIGTH_EYE
+    400116: jaguar_RIG_100_RIGTH_RIBCAGE
+    400118: jaguar_RIG_100_RIGTH_RIBCAGE02
+    400120: jaguar_RIG_100_RIGTH_RIBCAGE_END
+    400122: jaguar_RIG_100_RIGTH_TOP_LIP
+    400124: jaguar_RIG_100_RIGTH_TOP_SHECK
+    400126: jaguar_RIG_100_SPINE_JOINT01
+    400128: jaguar_RIG_100_SPINE_joint1
+    400130: jaguar_RIG_100_SPINE_joint2
+    400132: jaguar_RIG_100_SPINE_joint3
+    400134: jaguar_RIG_100_TAIL_Joint_1
+    400136: jaguar_RIG_100_TAIL_Joint_2
+    400138: jaguar_RIG_100_TAIL_Joint_3
+    400140: jaguar_RIG_100_TAIL_Joint_4
+    400142: jaguar_RIG_100_TAIL_Joint_5
+    400144: jaguar_RIG_100_TAIL_Joint_6
+    400146: jaguar_RIG_100_TAIL_Joint_7
+    400148: jaguar_RIG_100_TAIL_Joint_END
+    400150: //RootNode
+    2300000: jaguar_eye_left
+    2300002: jaguar_eye_right
+    3300000: jaguar_eye_left
+    3300002: jaguar_eye_right
+    4300000: jaguar_eye_right
+    4300002: jaguar_eye_left
+    4300004: jaguar_body
+    7400000: jaguar_look_around
+    7400002: jaguar_leg_in_head
+    7400004: jaguar_up
+    7400006: jaguar_idle
+    9500000: //RootNode
+    13700000: jaguar_body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jaguar_body
+    second: {fileID: 2100000, guid: 7f64ffdc203764c459ee954ae3fa82f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jaguar_eyes
+    second: {fileID: 2100000, guid: 5165a532ef9f2874cbb830f5a73e1622, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: jaguar_look_around
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jaguar_joints
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6/jaguar_RIG_100_TAIL_Joint_7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6/jaguar_RIG_100_TAIL_Joint_7/jaguar_RIG_100_TAIL_Joint_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9/jaguar_RIG_100_LEFT__BACK_PAW_joint10
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9/jaguar_RIG_100_LEFT__BACK_PAW_joint10/jaguar_RIG_100_LEFT__BACK_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9/jaguar_RIG_100_RIGTH__BACK_PAW_joint10
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9/jaguar_RIG_100_RIGTH__BACK_PAW_joint10/jaguar_RIG_100_RIGTH__BACK_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_Chest_Counter_02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE/jaguar_RIG_100_LEFT_RIBCAGE02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE/jaguar_RIG_100_LEFT_RIBCAGE02/jaguar_RIG_100_LEFT_RIBCAGE_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE/jaguar_RIG_100_RIGTH_RIBCAGE02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE/jaguar_RIG_100_RIGTH_RIBCAGE02/jaguar_RIG_100_RIGTH_RIBCAGE_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_CHEST_COUNTER
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3/jaguar_RIG_100_LEFT__FRONT_PAWjoint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3/jaguar_RIG_100_LEFT__FRONT_PAWjoint4/jaguar_RIG_100_LEFT__FRONT_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_BOTTOM_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_BOTTOM_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EAR
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EAR/jaguar_RIG_100_LEFT_EAREND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EYE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_TOP_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_TOP_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_NOSE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_BOTTOM_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_BOTTOM_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EAR
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EAR/jaguar_RIG_100_RIGTH_EAREND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EYE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_TOP_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_TOP_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_HEAD_END_2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1/jaguar_RIG_100_JAW_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1/jaguar_RIG_100_JAW_joint2/jaguar_RIG_100_JAW_jointEND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_NECK_COUNTER_01
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_NECK_COUNTER_02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3/jaguar_RIG_100_RIGTH__FRONT_PAWjoint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3/jaguar_RIG_100_RIGTH__FRONT_PAWjoint4/jaguar_RIG_100_RIGTH__FRONT_PAW_END
+        weight: 1
+      - path: jaguar_mesh
+        weight: 1
+      - path: jaguar_mesh/jaguar_body
+        weight: 1
+      - path: jaguar_mesh/jaguar_eye_left
+        weight: 1
+      - path: jaguar_mesh/jaguar_eye_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jaguar_leg_in_head
+      takeName: C4D Animation Take
+      firstFrame: 190
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jaguar_joints
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6/jaguar_RIG_100_TAIL_Joint_7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6/jaguar_RIG_100_TAIL_Joint_7/jaguar_RIG_100_TAIL_Joint_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9/jaguar_RIG_100_LEFT__BACK_PAW_joint10
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9/jaguar_RIG_100_LEFT__BACK_PAW_joint10/jaguar_RIG_100_LEFT__BACK_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9/jaguar_RIG_100_RIGTH__BACK_PAW_joint10
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9/jaguar_RIG_100_RIGTH__BACK_PAW_joint10/jaguar_RIG_100_RIGTH__BACK_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_Chest_Counter_02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE/jaguar_RIG_100_LEFT_RIBCAGE02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE/jaguar_RIG_100_LEFT_RIBCAGE02/jaguar_RIG_100_LEFT_RIBCAGE_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE/jaguar_RIG_100_RIGTH_RIBCAGE02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE/jaguar_RIG_100_RIGTH_RIBCAGE02/jaguar_RIG_100_RIGTH_RIBCAGE_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_CHEST_COUNTER
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3/jaguar_RIG_100_LEFT__FRONT_PAWjoint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3/jaguar_RIG_100_LEFT__FRONT_PAWjoint4/jaguar_RIG_100_LEFT__FRONT_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_BOTTOM_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_BOTTOM_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EAR
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EAR/jaguar_RIG_100_LEFT_EAREND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EYE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_TOP_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_TOP_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_NOSE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_BOTTOM_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_BOTTOM_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EAR
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EAR/jaguar_RIG_100_RIGTH_EAREND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EYE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_TOP_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_TOP_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_HEAD_END_2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1/jaguar_RIG_100_JAW_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1/jaguar_RIG_100_JAW_joint2/jaguar_RIG_100_JAW_jointEND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_NECK_COUNTER_01
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_NECK_COUNTER_02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3/jaguar_RIG_100_RIGTH__FRONT_PAWjoint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3/jaguar_RIG_100_RIGTH__FRONT_PAWjoint4/jaguar_RIG_100_RIGTH__FRONT_PAW_END
+        weight: 1
+      - path: jaguar_mesh
+        weight: 1
+      - path: jaguar_mesh/jaguar_body
+        weight: 1
+      - path: jaguar_mesh/jaguar_eye_left
+        weight: 1
+      - path: jaguar_mesh/jaguar_eye_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jaguar_up
+      takeName: C4D Animation Take
+      firstFrame: 280
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jaguar_joints
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6/jaguar_RIG_100_TAIL_Joint_7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6/jaguar_RIG_100_TAIL_Joint_7/jaguar_RIG_100_TAIL_Joint_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9/jaguar_RIG_100_LEFT__BACK_PAW_joint10
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9/jaguar_RIG_100_LEFT__BACK_PAW_joint10/jaguar_RIG_100_LEFT__BACK_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9/jaguar_RIG_100_RIGTH__BACK_PAW_joint10
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9/jaguar_RIG_100_RIGTH__BACK_PAW_joint10/jaguar_RIG_100_RIGTH__BACK_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_Chest_Counter_02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE/jaguar_RIG_100_LEFT_RIBCAGE02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE/jaguar_RIG_100_LEFT_RIBCAGE02/jaguar_RIG_100_LEFT_RIBCAGE_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE/jaguar_RIG_100_RIGTH_RIBCAGE02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE/jaguar_RIG_100_RIGTH_RIBCAGE02/jaguar_RIG_100_RIGTH_RIBCAGE_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_CHEST_COUNTER
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3/jaguar_RIG_100_LEFT__FRONT_PAWjoint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3/jaguar_RIG_100_LEFT__FRONT_PAWjoint4/jaguar_RIG_100_LEFT__FRONT_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_BOTTOM_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_BOTTOM_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EAR
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EAR/jaguar_RIG_100_LEFT_EAREND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EYE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_TOP_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_TOP_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_NOSE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_BOTTOM_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_BOTTOM_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EAR
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EAR/jaguar_RIG_100_RIGTH_EAREND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EYE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_TOP_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_TOP_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_HEAD_END_2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1/jaguar_RIG_100_JAW_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1/jaguar_RIG_100_JAW_joint2/jaguar_RIG_100_JAW_jointEND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_NECK_COUNTER_01
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_NECK_COUNTER_02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3/jaguar_RIG_100_RIGTH__FRONT_PAWjoint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3/jaguar_RIG_100_RIGTH__FRONT_PAWjoint4/jaguar_RIG_100_RIGTH__FRONT_PAW_END
+        weight: 1
+      - path: jaguar_mesh
+        weight: 1
+      - path: jaguar_mesh/jaguar_body
+        weight: 1
+      - path: jaguar_mesh/jaguar_eye_left
+        weight: 1
+      - path: jaguar_mesh/jaguar_eye_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jaguar_idle
+      takeName: C4D Animation Take
+      firstFrame: 530
+      lastFrame: 765
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jaguar_joints
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6/jaguar_RIG_100_TAIL_Joint_7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint2/jaguar_RIG_100_TAIL_Joint_1/jaguar_RIG_100_TAIL_Joint_2/jaguar_RIG_100_TAIL_Joint_3/jaguar_RIG_100_TAIL_Joint_4/jaguar_RIG_100_TAIL_Joint_5/jaguar_RIG_100_TAIL_Joint_6/jaguar_RIG_100_TAIL_Joint_7/jaguar_RIG_100_TAIL_Joint_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_joint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9/jaguar_RIG_100_LEFT__BACK_PAW_joint10
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_LEFT__BACK_PAW/jaguar_RIG_100_LEFT__BACK_PAW_joint7/jaguar_RIG_100_LEFT__BACK_PAW_joint8/jaguar_RIG_100_LEFT__BACK_PAW_joint9/jaguar_RIG_100_LEFT__BACK_PAW_joint10/jaguar_RIG_100_LEFT__BACK_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9/jaguar_RIG_100_RIGTH__BACK_PAW_joint10
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_RIGTH__BACK_PAW/jaguar_RIG_100_RIGTH__BACK_PAW_joint7/jaguar_RIG_100_RIGTH__BACK_PAW_joint8/jaguar_RIG_100_RIGTH__BACK_PAW_joint9/jaguar_RIG_100_RIGTH__BACK_PAW_joint10/jaguar_RIG_100_RIGTH__BACK_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_Chest_Counter_02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE/jaguar_RIG_100_LEFT_RIBCAGE02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_LEFT_RIBCAGE/jaguar_RIG_100_LEFT_RIBCAGE02/jaguar_RIG_100_LEFT_RIBCAGE_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE/jaguar_RIG_100_RIGTH_RIBCAGE02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_RIGTH_RIBCAGE/jaguar_RIG_100_RIGTH_RIBCAGE02/jaguar_RIG_100_RIGTH_RIBCAGE_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_CHEST_COUNTER
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3/jaguar_RIG_100_LEFT__FRONT_PAWjoint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_LEFT__FRONT_PAW/jaguar_RIG_100_LEFT__FRONT_PAWjoint2/jaguar_RIG_100_LEFT__FRONT_PAWjoint3/jaguar_RIG_100_LEFT__FRONT_PAWjoint4/jaguar_RIG_100_LEFT__FRONT_PAW_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_BOTTOM_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_BOTTOM_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EAR
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EAR/jaguar_RIG_100_LEFT_EAREND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_EYE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_TOP_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_LEFT_TOP_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_NOSE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_BOTTOM_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_BOTTOM_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EAR
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EAR/jaguar_RIG_100_RIGTH_EAREND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_EYE
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_TOP_LIP
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_FACE_JOINT/jaguar_RIG_100_RIGTH_TOP_SHECK
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_HEAD_END_2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1/jaguar_RIG_100_JAW_joint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_HEAD_END/jaguar_RIG_100_JAW_joint1/jaguar_RIG_100_JAW_joint2/jaguar_RIG_100_JAW_jointEND
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_NECK_COUNTER_01
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_NECK_JOINT_joint4/jaguar_RIG_100_HEAD_joint/jaguar_RIG_100_NECK_COUNTER_02
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3/jaguar_RIG_100_RIGTH__FRONT_PAWjoint4
+        weight: 1
+      - path: jaguar_joints/jaguar_RIG_100_COG/jaguar_RIG_100_SPINE_JOINT01/jaguar_RIG_100_SPINE_joint1/jaguar_RIG_100_SPINE_joint2/jaguar_RIG_100_SPINE_joint3/jaguar_RIG_100_RIGTH__FRONT_PAW/jaguar_RIG_100_RIGTH__FRONT_PAWjoint2/jaguar_RIG_100_RIGTH__FRONT_PAWjoint3/jaguar_RIG_100_RIGTH__FRONT_PAWjoint4/jaguar_RIG_100_RIGTH__FRONT_PAW_END
+        weight: 1
+      - path: jaguar_mesh
+        weight: 1
+      - path: jaguar_mesh/jaguar_body
+        weight: 1
+      - path: jaguar_mesh/jaguar_eye_left
+        weight: 1
+      - path: jaguar_mesh/jaguar_eye_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 2
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

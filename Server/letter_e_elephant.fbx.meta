@@ -1,0 +1,948 @@
+fileFormatVersion: 2
+guid: 58f9fe3760d24a94c941c124e0eb359a
+timeCreated: 1444332245
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ELEFANT_RIG
+    100002: Elephant_body
+    100004: Elephant_GEO
+    100006: Eye_left
+    100008: Eye_right
+    100010: Eyes
+    100012: GENERAL_CONTROL
+    100014: GENERAL_CONTROL1
+    100016: GENERAL_CONTROL10
+    100018: GENERAL_CONTROL11
+    100020: GENERAL_CONTROL13
+    100022: GENERAL_CONTROL14
+    100024: GENERAL_CONTROL16
+    100026: GENERAL_CONTROL17
+    100028: GENERAL_CONTROL19
+    100030: GENERAL_CONTROL2
+    100032: GENERAL_CONTROL20
+    100034: GENERAL_CONTROL21
+    100036: GENERAL_CONTROL22
+    100038: GENERAL_CONTROL23
+    100040: GENERAL_CONTROL24
+    100042: GENERAL_CONTROL25
+    100044: GENERAL_CONTROL26
+    100046: GENERAL_CONTROL27
+    100048: GENERAL_CONTROL28
+    100050: GENERAL_CONTROL29
+    100052: GENERAL_CONTROL3
+    100054: GENERAL_CONTROL30
+    100056: GENERAL_CONTROL31
+    100058: GENERAL_CONTROL32
+    100060: GENERAL_CONTROL33
+    100062: GENERAL_CONTROL34
+    100064: GENERAL_CONTROL35
+    100066: GENERAL_CONTROL36
+    100068: GENERAL_CONTROL4
+    100070: GENERAL_CONTROL5
+    100072: GENERAL_CONTROL6
+    100074: GENERAL_CONTROL7
+    100076: GENERAL_CONTROL8
+    100078: GENERAL_CONTROL9
+    100080: GOGjoint1
+    100082: group
+    100084: group1
+    100086: group3
+    100088: group4
+    100090: HEAD_CONTROL12
+    100092: HEADjoint4
+    100094: IK_HANDLES
+    100096: ikHandle1
+    100098: ikHandle2
+    100100: ikHandle3
+    100102: ikHandle4
+    100104: JAW
+    100106: JAW 1
+    100108: JAWEND
+    100110: joint2
+    100112: joint2 1
+    100114: JOINTS
+    100116: L_BackPaw_joint26
+    100118: L_BackPaw_joint27
+    100120: L_BackPaw_joint28
+    100122: L_BackPaw_joint29
+    100124: L_BackPaw_jointEND
+    100126: L_EARjoint37
+    100128: L_EARjoint38
+    100130: L_EARjoint39
+    100132: L_EARjoint40
+    100134: L_EARjoint41
+    100136: L_EARJoints
+    100138: L_EYE
+    100140: L_Front_pawjoint31
+    100142: L_Front_pawjoint32
+    100144: L_Front_pawjoint33
+    100146: L_Front_pawjoint34
+    100148: L_Front_pawjointEND
+    100150: L_RIB_CAGE
+    100152: L_RIB_CAGEjoint4
+    100154: L_RIB_CAGEjoint5END
+    100156: L_THOOTHjoint3
+    100158: L_THOOTHjoint4
+    100160: L_THOOTHjoint5
+    100162: L_THOOTHjoint6
+    100164: //RootNode
+    100166: pasted__ELEFANT_RIG
+    100168: pasted__GENERAL_CONTROL
+    100170: pasted__GENERAL_CONTROL5
+    100172: R_BackPaw_joint26
+    100174: R_BackPaw_joint27
+    100176: R_BackPaw_joint28
+    100178: R_BackPaw_joint29
+    100180: R_BackPaw_jointEND
+    100182: R_EARjoint37
+    100184: R_EARjoint38
+    100186: R_EARjoint39
+    100188: R_EARjoint40
+    100190: R_EARjoint41
+    100192: R_EARJoints
+    100194: R_EYE
+    100196: R_Front_pawjoint31
+    100198: R_Front_pawjoint32
+    100200: R_Front_pawjoint33
+    100202: R_Front_pawjoint34
+    100204: R_Front_pawjointEND
+    100206: R_RIB_CAGE
+    100208: R_RIB_CAGEjoint4
+    100210: R_RIB_CAGEjoint5END
+    100212: R_THOOTHjoint3
+    100214: R_THOOTHjoint4
+    100216: R_THOOTHjoint5
+    100218: R_THOOTHjoint6
+    100220: SPINEjoint2
+    100222: SPINEjoint3
+    100224: TAIL_joint14
+    100226: TAIL_joint15
+    100228: TAIL_joint16
+    100230: TAIL_joint17
+    100232: TAIL_joint18
+    100234: TAIL_joint19
+    100236: TAIL_joint20END
+    100238: TRUMP_CONTROL1
+    100240: TRUMP_CONTROL2
+    100242: TRUMPjoint10
+    100244: TRUMPjoint11
+    100246: TRUMPjoint12
+    100248: TRUMPjoint13END
+    100250: TRUMPjoint5
+    100252: TRUMPjoint6
+    100254: TRUMPjoint7
+    100256: TRUMPjoint8
+    100258: TRUMPjoint9
+    400000: ELEFANT_RIG
+    400002: Elephant_body
+    400004: Elephant_GEO
+    400006: Eye_left
+    400008: Eye_right
+    400010: Eyes
+    400012: GENERAL_CONTROL
+    400014: GENERAL_CONTROL1
+    400016: GENERAL_CONTROL10
+    400018: GENERAL_CONTROL11
+    400020: GENERAL_CONTROL13
+    400022: GENERAL_CONTROL14
+    400024: GENERAL_CONTROL16
+    400026: GENERAL_CONTROL17
+    400028: GENERAL_CONTROL19
+    400030: GENERAL_CONTROL2
+    400032: GENERAL_CONTROL20
+    400034: GENERAL_CONTROL21
+    400036: GENERAL_CONTROL22
+    400038: GENERAL_CONTROL23
+    400040: GENERAL_CONTROL24
+    400042: GENERAL_CONTROL25
+    400044: GENERAL_CONTROL26
+    400046: GENERAL_CONTROL27
+    400048: GENERAL_CONTROL28
+    400050: GENERAL_CONTROL29
+    400052: GENERAL_CONTROL3
+    400054: GENERAL_CONTROL30
+    400056: GENERAL_CONTROL31
+    400058: GENERAL_CONTROL32
+    400060: GENERAL_CONTROL33
+    400062: GENERAL_CONTROL34
+    400064: GENERAL_CONTROL35
+    400066: GENERAL_CONTROL36
+    400068: GENERAL_CONTROL4
+    400070: GENERAL_CONTROL5
+    400072: GENERAL_CONTROL6
+    400074: GENERAL_CONTROL7
+    400076: GENERAL_CONTROL8
+    400078: GENERAL_CONTROL9
+    400080: GOGjoint1
+    400082: group
+    400084: group1
+    400086: group3
+    400088: group4
+    400090: HEAD_CONTROL12
+    400092: HEADjoint4
+    400094: IK_HANDLES
+    400096: ikHandle1
+    400098: ikHandle2
+    400100: ikHandle3
+    400102: ikHandle4
+    400104: JAW
+    400106: JAW 1
+    400108: JAWEND
+    400110: joint2
+    400112: joint2 1
+    400114: JOINTS
+    400116: L_BackPaw_joint26
+    400118: L_BackPaw_joint27
+    400120: L_BackPaw_joint28
+    400122: L_BackPaw_joint29
+    400124: L_BackPaw_jointEND
+    400126: L_EARjoint37
+    400128: L_EARjoint38
+    400130: L_EARjoint39
+    400132: L_EARjoint40
+    400134: L_EARjoint41
+    400136: L_EARJoints
+    400138: L_EYE
+    400140: L_Front_pawjoint31
+    400142: L_Front_pawjoint32
+    400144: L_Front_pawjoint33
+    400146: L_Front_pawjoint34
+    400148: L_Front_pawjointEND
+    400150: L_RIB_CAGE
+    400152: L_RIB_CAGEjoint4
+    400154: L_RIB_CAGEjoint5END
+    400156: L_THOOTHjoint3
+    400158: L_THOOTHjoint4
+    400160: L_THOOTHjoint5
+    400162: L_THOOTHjoint6
+    400164: //RootNode
+    400166: pasted__ELEFANT_RIG
+    400168: pasted__GENERAL_CONTROL
+    400170: pasted__GENERAL_CONTROL5
+    400172: R_BackPaw_joint26
+    400174: R_BackPaw_joint27
+    400176: R_BackPaw_joint28
+    400178: R_BackPaw_joint29
+    400180: R_BackPaw_jointEND
+    400182: R_EARjoint37
+    400184: R_EARjoint38
+    400186: R_EARjoint39
+    400188: R_EARjoint40
+    400190: R_EARjoint41
+    400192: R_EARJoints
+    400194: R_EYE
+    400196: R_Front_pawjoint31
+    400198: R_Front_pawjoint32
+    400200: R_Front_pawjoint33
+    400202: R_Front_pawjoint34
+    400204: R_Front_pawjointEND
+    400206: R_RIB_CAGE
+    400208: R_RIB_CAGEjoint4
+    400210: R_RIB_CAGEjoint5END
+    400212: R_THOOTHjoint3
+    400214: R_THOOTHjoint4
+    400216: R_THOOTHjoint5
+    400218: R_THOOTHjoint6
+    400220: SPINEjoint2
+    400222: SPINEjoint3
+    400224: TAIL_joint14
+    400226: TAIL_joint15
+    400228: TAIL_joint16
+    400230: TAIL_joint17
+    400232: TAIL_joint18
+    400234: TAIL_joint19
+    400236: TAIL_joint20END
+    400238: TRUMP_CONTROL1
+    400240: TRUMP_CONTROL2
+    400242: TRUMPjoint10
+    400244: TRUMPjoint11
+    400246: TRUMPjoint12
+    400248: TRUMPjoint13END
+    400250: TRUMPjoint5
+    400252: TRUMPjoint6
+    400254: TRUMPjoint7
+    400256: TRUMPjoint8
+    400258: TRUMPjoint9
+    2300000: Eye_left
+    2300002: Eye_right
+    3300000: Eye_left
+    3300002: Eye_right
+    4300000: Eye_left
+    4300002: Eye_right
+    4300004: Elephant_body
+    7400000: elephant_idle
+    7400002: elephant_up
+    9500000: //RootNode
+    13700000: Elephant_body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: elephant_body
+    second: {fileID: 2100000, guid: cff1b8de005769e4282e8e3cc6d045d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: elephant_eyes
+    second: {fileID: 2100000, guid: abaa546f71f9d7846b931f0e28345a84, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: elephant_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ELEFANT_RIG
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/Eyes
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/group1
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/group1/Elephant_body
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/group1/Eye_left
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/group1/Eye_right
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL5
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL5/GENERAL_CONTROL4
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL5/GENERAL_CONTROL4/GENERAL_CONTROL34
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL8
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL8/GENERAL_CONTROL3
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL8/GENERAL_CONTROL3/GENERAL_CONTROL33
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL16
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29/GENERAL_CONTROL13
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29/GENERAL_CONTROL13/GENERAL_CONTROL28
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29/GENERAL_CONTROL13/GENERAL_CONTROL28/GENERAL_CONTROL14
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29/GENERAL_CONTROL13/GENERAL_CONTROL28/GENERAL_CONTROL14/GENERAL_CONTROL27
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL35
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL36
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3/group4
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3/group4/GENERAL_CONTROL17
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3/group4/GENERAL_CONTROL17/GENERAL_CONTROL21
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3/group4/GENERAL_CONTROL17/GENERAL_CONTROL21/GENERAL_CONTROL22
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/TRUMP_CONTROL2
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/TRUMP_CONTROL2/GENERAL_CONTROL19
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/TRUMP_CONTROL2/GENERAL_CONTROL19/GENERAL_CONTROL20
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL26
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL26/GENERAL_CONTROL9
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL26/GENERAL_CONTROL9/GENERAL_CONTROL10
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL26/GENERAL_CONTROL9/GENERAL_CONTROL10/GENERAL_CONTROL11
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL6
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL6/GENERAL_CONTROL1
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL6/GENERAL_CONTROL1/GENERAL_CONTROL31
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL7
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL7/GENERAL_CONTROL2
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL7/GENERAL_CONTROL2/GENERAL_CONTROL32
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES/ikHandle1
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES/ikHandle2
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES/ikHandle3
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES/ikHandle4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26/L_BackPaw_joint27
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26/L_BackPaw_joint27/L_BackPaw_joint28
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26/L_BackPaw_joint27/L_BackPaw_joint28/L_BackPaw_joint29
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26/L_BackPaw_joint27/L_BackPaw_joint28/L_BackPaw_joint29/L_BackPaw_jointEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26/R_BackPaw_joint27
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26/R_BackPaw_joint27/R_BackPaw_joint28
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26/R_BackPaw_joint27/R_BackPaw_joint28/R_BackPaw_joint29
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26/R_BackPaw_joint27/R_BackPaw_joint28/R_BackPaw_joint29/R_BackPaw_jointEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/L_RIB_CAGE
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/L_RIB_CAGE/L_RIB_CAGEjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/L_RIB_CAGE/L_RIB_CAGEjoint4/L_RIB_CAGEjoint5END
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/R_RIB_CAGE
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/R_RIB_CAGE/R_RIB_CAGEjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/R_RIB_CAGE/R_RIB_CAGEjoint4/R_RIB_CAGEjoint5END
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/JAW
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/JAW/JAW
+          1
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/JAW/JAW
+          1/JAWEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37/L_EARjoint38
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37/L_EARjoint38/L_EARjoint39
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37/L_EARjoint38/L_EARjoint39/L_EARjoint40
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37/L_EARjoint38/L_EARjoint39/L_EARjoint40/L_EARjoint41
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EYE
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EYE/joint2
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_THOOTHjoint3
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_THOOTHjoint3/L_THOOTHjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_THOOTHjoint3/L_THOOTHjoint4/L_THOOTHjoint5
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_THOOTHjoint3/L_THOOTHjoint4/L_THOOTHjoint5/L_THOOTHjoint6
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37/R_EARjoint38
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37/R_EARjoint38/R_EARjoint39
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37/R_EARjoint38/R_EARjoint39/R_EARjoint40
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37/R_EARjoint38/R_EARjoint39/R_EARjoint40/R_EARjoint41
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EYE
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EYE/joint2
+          1
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_THOOTHjoint3
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_THOOTHjoint3/R_THOOTHjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_THOOTHjoint3/R_THOOTHjoint4/R_THOOTHjoint5
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_THOOTHjoint3/R_THOOTHjoint4/R_THOOTHjoint5/R_THOOTHjoint6
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9/TRUMPjoint10
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9/TRUMPjoint10/TRUMPjoint11
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9/TRUMPjoint10/TRUMPjoint11/TRUMPjoint12
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9/TRUMPjoint10/TRUMPjoint11/TRUMPjoint12/TRUMPjoint13END
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31/L_Front_pawjoint32
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31/L_Front_pawjoint32/L_Front_pawjoint33
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31/L_Front_pawjoint32/L_Front_pawjoint33/L_Front_pawjoint34
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31/L_Front_pawjoint32/L_Front_pawjoint33/L_Front_pawjoint34/L_Front_pawjointEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31/R_Front_pawjoint32
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31/R_Front_pawjoint32/R_Front_pawjoint33
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31/R_Front_pawjoint32/R_Front_pawjoint33/R_Front_pawjoint34
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31/R_Front_pawjoint32/R_Front_pawjoint33/R_Front_pawjoint34/R_Front_pawjointEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16/TAIL_joint17
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16/TAIL_joint17/TAIL_joint18
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16/TAIL_joint17/TAIL_joint18/TAIL_joint19
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16/TAIL_joint17/TAIL_joint18/TAIL_joint19/TAIL_joint20END
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__ELEFANT_RIG
+        weight: 1
+      - path: group/pasted__ELEFANT_RIG/pasted__GENERAL_CONTROL
+        weight: 1
+      - path: group/pasted__ELEFANT_RIG/pasted__GENERAL_CONTROL/pasted__GENERAL_CONTROL5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: elephant_up
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ELEFANT_RIG
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/Eyes
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/group1
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/group1/Elephant_body
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/group1/Eye_left
+        weight: 1
+      - path: ELEFANT_RIG/Elephant_GEO/group1/Eye_right
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL5
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL5/GENERAL_CONTROL4
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL5/GENERAL_CONTROL4/GENERAL_CONTROL34
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL8
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL8/GENERAL_CONTROL3
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL8/GENERAL_CONTROL3/GENERAL_CONTROL33
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL16
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29/GENERAL_CONTROL13
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29/GENERAL_CONTROL13/GENERAL_CONTROL28
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29/GENERAL_CONTROL13/GENERAL_CONTROL28/GENERAL_CONTROL14
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL30/TRUMP_CONTROL1/GENERAL_CONTROL29/GENERAL_CONTROL13/GENERAL_CONTROL28/GENERAL_CONTROL14/GENERAL_CONTROL27
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL35
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/GENERAL_CONTROL36
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3/group4
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3/group4/GENERAL_CONTROL17
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3/group4/GENERAL_CONTROL17/GENERAL_CONTROL21
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/group3/group4/GENERAL_CONTROL17/GENERAL_CONTROL21/GENERAL_CONTROL22
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/TRUMP_CONTROL2
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/TRUMP_CONTROL2/GENERAL_CONTROL19
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL23/GENERAL_CONTROL24/HEAD_CONTROL12/TRUMP_CONTROL2/GENERAL_CONTROL19/GENERAL_CONTROL20
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL26
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL26/GENERAL_CONTROL9
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL26/GENERAL_CONTROL9/GENERAL_CONTROL10
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL/GENERAL_CONTROL25/GENERAL_CONTROL26/GENERAL_CONTROL9/GENERAL_CONTROL10/GENERAL_CONTROL11
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL6
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL6/GENERAL_CONTROL1
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL6/GENERAL_CONTROL1/GENERAL_CONTROL31
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL7
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL7/GENERAL_CONTROL2
+        weight: 1
+      - path: ELEFANT_RIG/GENERAL_CONTROL7/GENERAL_CONTROL2/GENERAL_CONTROL32
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES/ikHandle1
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES/ikHandle2
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES/ikHandle3
+        weight: 1
+      - path: ELEFANT_RIG/IK_HANDLES/ikHandle4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26/L_BackPaw_joint27
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26/L_BackPaw_joint27/L_BackPaw_joint28
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26/L_BackPaw_joint27/L_BackPaw_joint28/L_BackPaw_joint29
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/L_BackPaw_joint26/L_BackPaw_joint27/L_BackPaw_joint28/L_BackPaw_joint29/L_BackPaw_jointEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26/R_BackPaw_joint27
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26/R_BackPaw_joint27/R_BackPaw_joint28
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26/R_BackPaw_joint27/R_BackPaw_joint28/R_BackPaw_joint29
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/R_BackPaw_joint26/R_BackPaw_joint27/R_BackPaw_joint28/R_BackPaw_joint29/R_BackPaw_jointEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/L_RIB_CAGE
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/L_RIB_CAGE/L_RIB_CAGEjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/L_RIB_CAGE/L_RIB_CAGEjoint4/L_RIB_CAGEjoint5END
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/R_RIB_CAGE
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/R_RIB_CAGE/R_RIB_CAGEjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/R_RIB_CAGE/R_RIB_CAGEjoint4/R_RIB_CAGEjoint5END
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/JAW
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/JAW/JAW
+          1
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/JAW/JAW
+          1/JAWEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37/L_EARjoint38
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37/L_EARjoint38/L_EARjoint39
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37/L_EARjoint38/L_EARjoint39/L_EARjoint40
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EARJoints/L_EARjoint37/L_EARjoint38/L_EARjoint39/L_EARjoint40/L_EARjoint41
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EYE
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_EYE/joint2
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_THOOTHjoint3
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_THOOTHjoint3/L_THOOTHjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_THOOTHjoint3/L_THOOTHjoint4/L_THOOTHjoint5
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/L_THOOTHjoint3/L_THOOTHjoint4/L_THOOTHjoint5/L_THOOTHjoint6
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37/R_EARjoint38
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37/R_EARjoint38/R_EARjoint39
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37/R_EARjoint38/R_EARjoint39/R_EARjoint40
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EARJoints/R_EARjoint37/R_EARjoint38/R_EARjoint39/R_EARjoint40/R_EARjoint41
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EYE
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_EYE/joint2
+          1
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_THOOTHjoint3
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_THOOTHjoint3/R_THOOTHjoint4
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_THOOTHjoint3/R_THOOTHjoint4/R_THOOTHjoint5
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/R_THOOTHjoint3/R_THOOTHjoint4/R_THOOTHjoint5/R_THOOTHjoint6
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9/TRUMPjoint10
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9/TRUMPjoint10/TRUMPjoint11
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9/TRUMPjoint10/TRUMPjoint11/TRUMPjoint12
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/HEADjoint4/TRUMPjoint5/TRUMPjoint6/TRUMPjoint7/TRUMPjoint8/TRUMPjoint9/TRUMPjoint10/TRUMPjoint11/TRUMPjoint12/TRUMPjoint13END
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31/L_Front_pawjoint32
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31/L_Front_pawjoint32/L_Front_pawjoint33
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31/L_Front_pawjoint32/L_Front_pawjoint33/L_Front_pawjoint34
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/L_Front_pawjoint31/L_Front_pawjoint32/L_Front_pawjoint33/L_Front_pawjoint34/L_Front_pawjointEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31/R_Front_pawjoint32
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31/R_Front_pawjoint32/R_Front_pawjoint33
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31/R_Front_pawjoint32/R_Front_pawjoint33/R_Front_pawjoint34
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/SPINEjoint2/SPINEjoint3/R_Front_pawjoint31/R_Front_pawjoint32/R_Front_pawjoint33/R_Front_pawjoint34/R_Front_pawjointEND
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16/TAIL_joint17
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16/TAIL_joint17/TAIL_joint18
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16/TAIL_joint17/TAIL_joint18/TAIL_joint19
+        weight: 1
+      - path: ELEFANT_RIG/JOINTS/GOGjoint1/TAIL_joint14/TAIL_joint15/TAIL_joint16/TAIL_joint17/TAIL_joint18/TAIL_joint19/TAIL_joint20END
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__ELEFANT_RIG
+        weight: 1
+      - path: group/pasted__ELEFANT_RIG/pasted__GENERAL_CONTROL
+        weight: 1
+      - path: group/pasted__ELEFANT_RIG/pasted__GENERAL_CONTROL/pasted__GENERAL_CONTROL5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 3
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

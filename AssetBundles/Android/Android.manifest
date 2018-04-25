@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2265011130
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: geo_shapes
+      Dependencies: {}
